@@ -1,13 +1,13 @@
 #import "@preview/tsinswreng-auto-heading:0.1.0": auto-heading
 #let H = auto-heading
 
----
+\-\-\-
 
 name: tsinswreng-core-rules
 
 description: 核心規則。不管做甚麼 此skill都必讀
 
----
+\-\-\-
 
 #H[遇疑即停][
 	- 看 tsinswreng-stop-on-doubt

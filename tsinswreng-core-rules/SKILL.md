@@ -1,10 +1,10 @@
-—
+---
 
 name: tsinswreng-core-rules
 
 description: 核心規則。不管做甚麼 此skill都必讀
 
-—
+---
 
 ## 遇疑即停
 
