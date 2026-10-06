@@ -2,7 +2,7 @@
 
 name: tsinswreng-core-rules
 
-description: 核心規則。不管做甚麼 此skill都必讀
+description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁止輸出markdown表格和字符畫;不得擅自開子智能體;不讀寫`_Note/`
 
 ---
 
@@ -54,3 +54,7 @@ description: 核心規則。不管做甚麼 此skill都必讀
 
 - 每次開子智能體前都要報備！未經用戶明確許可嚴禁私開子智能體！
 - 報備時說清意圖、提示詞及數量
+
+## 不准讀也不准寫`_Note/`下面的用戶自己記的筆記
+
+除非用戶明確授權
