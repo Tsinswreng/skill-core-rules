@@ -84,3 +84,10 @@ description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁
 	- 禁止調用工具申請寫入
 	- 若需寫入則應在正文中請求用戶切換到修改模式
 ]
+
+#H[複雜腳本用CsSh寫][
+	需要寫臨時的複雜腳本時用CsSh寫 .csx文件,
+	用dotnet-script執行。
+	具體寫法看tsinswreng-cssh skill。
+	不用pwsh/bash等來寫。
+]
