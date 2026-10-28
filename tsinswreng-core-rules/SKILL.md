@@ -77,4 +77,9 @@ description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁
 
 ## 複雜腳本用CsSh寫
 
-需要寫臨時的複雜腳本時用CsSh寫 .csx文件, 用dotnet-script執行。 不用pwsh/bash等來寫。 涉及多行文本塊、字符串替換的腳本尤應如此! 具體寫法看tsinswreng-cssh skill。 注意應按需加載skill, 當你不需要寫時就不要浪費時間讀無關skill
+需要寫臨時的複雜腳本時用CsSh寫 .csx文件, 用dotnet-script執行。 不用pwsh/bash等來寫。 涉及以下情況的尤應如此:
+
+- 涉及多行文本塊、字符串替換的腳本
+- 涉及大量手動轉義的 如嵌套命令轉義等
+
+具體寫法看tsinswreng-cssh skill。 注意應按需加載skill, 當你不需要寫時就不要浪費時間讀無關skill
