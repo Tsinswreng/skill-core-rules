@@ -5,7 +5,7 @@
 
 name: tsinswreng-core-rules
 
-description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁止輸出markdown表格和字符畫;不得擅自開子智能體;不讀寫Note;純讀取、不涉及寫入的任務 禁止在輸出正文後 調用提問工具; 當Harness爲只讀模式時應回答問題而非執行修改。
+description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁止輸出markdown表格和字符畫;不得擅自開子智能體;不讀寫Note;純讀取、不涉及寫入的任務 禁止在輸出正文後 調用提問工具; 當Harness爲只讀模式時應回答問題而非執行修改;執行命令/寫腳本 嚴格按`tsinswreng-shell`skill的規範執行
 
 \-\-\-
 
@@ -85,11 +85,6 @@ description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁
 	- 若需寫入則應在正文中請求用戶切換到修改模式
 ]
 
-#H[複雜腳本用CsSh寫][
-	需要寫臨時的複雜腳本時用CsSh寫 .csx文件,
-	用dotnet-script執行。
-	不用pwsh/bash等來寫。
-	具體寫法看tsinswreng-cssh skill。
-	注意應按需加載skill,
-	當你不需要寫時就不要浪費時間讀無關skill
+#H[執行命令/寫腳本 嚴格按`tsinswreng-shell`skill的規範執行][
+	
 ]
