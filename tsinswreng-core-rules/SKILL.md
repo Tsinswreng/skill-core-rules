@@ -2,13 +2,46 @@
 
 name: tsinswreng-core-rules
 
-description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁止輸出markdown表格和字符畫;不得擅自開子智能體;不讀寫Note;純讀取、不涉及寫入的任務 禁止在輸出正文後 調用提問工具; 當Harness爲只讀模式時應回答問題而非執行修改;執行命令/寫腳本 嚴格按`tsinswreng-shell`skill的規範執行
+description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁止輸出markdown表格和字符畫;不得擅自開子智能體;不讀寫Note;純讀取、不涉及寫入的任務 禁止在輸出正文後 調用提問工具; 當Harness爲只讀模式時應回答問題而非執行修改;執行命令/寫腳本 嚴格按`tsinswreng-shell`skill的規範執行;這是核心規則。不管做甚麼 此skill都必讀。
 
 ---
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
 
 ## 遇疑即停
 
 - 看 tsinswreng-stop-on-doubt
+
+## 未經許可禁止執行任何git寫操作
+
+- 你只能做查看歷史、diff 等只讀操作
+- 具体看 tsinswreng-git
 
 ## markdown輸出規範
 
@@ -59,15 +92,11 @@ description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁
 
 包括以下位置: `_Note/` `_Tswg/` 除非用戶明確授權
 
-## 純讀取、不涉及寫入的任務 禁止在輸出正文後 調用提問工具
+## 輸出最終回復後即終止本輪對話, 禁止在輸出正文後調用工具
 
-純讀取、不涉及寫入的任務 舉例:
+你回答完正文之後即結束對話 若你確實有問題想問 須把問題加進正文裏 作爲正文的一部分。 不許在已經輸出正文之後再調用 提問工具。
 
-- 問答
-- 方案研討
-- 代碼審查
-
-你回答完正文之後即結束對話 如果你確實有問題想問 必須把問題加進正文裏 作爲正文的一部分。 不許在已經輸出正文之後再調用 提問工具。
+若你要寫計憶, 則須先寫記憶再輸出正文, 禁止在輸出正文後再調工具寫記憶
 
 ## 當Harness爲只讀模式時應回答問題而非執行修改
 
@@ -81,3 +110,31 @@ description: 核心規則。不管做甚麼 此skill都必讀。遇疑即停;禁
 - 慎用類型 bash -c ‘嵌套的命令字符串’這種寫法
 
 ## 執行命令/寫腳本 嚴格按`tsinswreng-shell`skill的規範執行
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
+
+**再次提醒: 以下skill爲必讀:**
+
+- tsinswreng-core-rules
+- tsinswreng-stop-on-doubt
+- tsinswreng-git
+- tsinswreng-shell
